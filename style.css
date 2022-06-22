@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: calibri;
+}
+
+.topbar {
+    width: 99.85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset(-2px -2px -2px grey);
+}
+
+.topbar .left {
+    display: flex;
+    margin-right: 30%;
+    gap: 1rem;
+}
+
+.topbar .left p {
+    font-weight: bolder;
+    margin-left: 10px;
+    color: blue;
+    font-size: 1.9rem;
+    margin-top: 0.6rem;
+}
+
+@media (max-width: 790px) and (min-width: 595px) {
+    .topbar .left p {
+        font-size: 1.9rem;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .topbar .left p {
+        margin-right: 2%;
+        font-size: 1.2rem;
+        margin-top: 0.6rem
+    }
+}
+
+.topbar .left .ex {
+    font-size: 1rem;
+    width: 6rem;
+    height: 3rem;
+    margin-top: 1.3rem;
+}
+
+@media screen and (max-width: 596px) {
+    .topbar .left .ex {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 0.6rem
+    }
+}
+
+
+.topbar .right {
+    margin-left: 40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 790px) {
+    .topbar .right {
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .topbar .right {
+        margin-left: 2%;
+    }
+}
+
+.right .icons {
+    display: flex;
+    align-items: center;
+}
+
+.right .icons #ic {
+    margin-right: 15px;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 596px) {
+    .right .icons #ic {
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+}
+
+button {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    /* margin-right: 30px; */
+    font-size: 10px;
+}
+
+.blue {
+    height: 30vh;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.over {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dashboard {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    width: 80%;
+    gap: 32rem;
+    margin-top: -6rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+    .dashboard {
+        gap: 13rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .dashboard {
+        margin-top: -8rem;
+        gap: 2rem;
+    }
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.box2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+#verify {
+    font-size: 3rem;
+}
+
+h4 {
+    display: contents;
+}
+
+.intro {
+    margin-left: 10px;
+}
+
+.proflogo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 20px;
+}
+
+.hmain {
+    width: 6rem;
+}
+
+.hire {
+    display: table-cell;
+}
+
+.ico1, .ico2, .ico3, .ico4 {
+    text-align: center;
+}
+
+.last {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 60%;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 20%;
+    box-shadow: 2px 2px 2px grey;
+    overflow-x: hidden;
+}
+
+.l_head {
+    font-size: 1rem;
+    border-bottom: 2px solid #a7a7a7;
+    margin-bottom: 10px;
+}
+
+.l_one, .l_two, .l_three {
+    font-size: 1rem;
+    border-bottom: 2px solid #a7a7a7;
+    margin-bottom: 10px;
+}
+
+#phr button {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orange;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.endl {
+    display: table;
+    float: left;
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    margin-left: 20%;
+    width: 60%;
+    color: black;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 4rem;
+}
+
+.try {
+    margin-left: 3rem;
+}
+
+.t1 {
+    width: 50%;
+}
+
+.under {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul li {
+
+    list-style: none;
+}
